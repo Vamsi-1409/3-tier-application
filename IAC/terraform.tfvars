@@ -1,0 +1,23 @@
+ami_id                      = "ami-0b6d9d3d33ba97d99"
+aws_region                  = "us-east-1"
+instance_type               = "t3.micro"
+key_name                    = "AWS_login"
+allowed_cidr                = "0.0.0.0/0"
+ecr_repo_name               = "3tier-application"
+cluster_name                = "3tier-application-cluster"
+instance_types              = ["t3.micro"]
+desired_capacity            = 2
+max_size                    = 3
+min_size                    = 1
+db_username                 = "vamsi"
+db_password                 = "Vamsi2002!"
+cidr_block                  = "10.0.0.0/16"
+subnet_block_public1        = "10.0.10.0/24"
+subnet_block_public2        = "10.0.11.0/24"
+subnet_block_private1       = "10.0.3.0/24"
+subnet_block_private2       = "10.0.4.0/24"
+availability_zone_public_1  = "us-east-1a"
+availability_zone_public_2  = "us-east-1b"
+availability_zone_private_1 = "us-east-1a"
+availability_zone_private_2 = "us-east-1b"
+
