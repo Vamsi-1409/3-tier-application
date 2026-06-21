@@ -17,4 +17,8 @@ variable "db_username" {
 variable "db_password" {
   description = "The password for the RDS database"
   type        = string
+}
+variable "ec2sg" {
+  description = "adding ec2sg to rds"
+  type        = string
 }   

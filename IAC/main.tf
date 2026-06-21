@@ -34,6 +34,7 @@ module "ecr" {
 }
 module "rds" {
   source       = "./modules/rds"
+  ec2sg         = module.ec2.security_group_id
   db_username  = var.db_username
   db_password  = var.db_password
   vpc_id       = module.vpc.vpc_id
